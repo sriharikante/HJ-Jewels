@@ -6,7 +6,6 @@ import Products from "./Products";
 import About from "./About";
 import "./App.css";
 
-
 const marqueeItems = [
   "Handcrafted Excellence",
   "✦",
@@ -22,35 +21,28 @@ const marqueeItems = [
   "✦",
 ];
 
-
 function App() {
   const [favorites, setFavorites] = useState({});
   const [cart, setCart] = useState([]);
-  
   const [showWishlist, setShowWishlist] = useState(false);
   const [showCart, setShowCart] = useState(false);
-
-
+  const [searchQuery, setSearchQuery] = useState("");
 
   const favoriteCount = Object.values(favorites).filter(Boolean).length;
   const cartCount = cart.length;
-
-
 
   const handleOpenWishlist = () => {
     console.log("handleOpenWishlist called!");
     setShowWishlist(true);
   };
-  
+
   const handleOpenCart = () => {
     console.log("handleOpenCart called!");
     setShowCart(true);
   };
-  
+
   const handleCloseWishlist = () => setShowWishlist(false);
   const handleCloseCart = () => setShowCart(false);
-
-
 
   return (
     <div className="app">
@@ -59,21 +51,17 @@ function App() {
         cartCount={cartCount}
         onOpenWishlist={handleOpenWishlist}
         onOpenCart={handleOpenCart}
+        searchQuery={searchQuery}
+        setSearchQuery={setSearchQuery}
       />
-
-
 
       <main>
         <Hero />
-        
-        {/* Marquee Strip Between Hero and Collections */}
+
         <div className="marquee-strip">
           <div className="marquee-track">
             {[...marqueeItems, ...marqueeItems].map((item, index) => (
-              <span
-                key={index}
-                className={item === "✦" ? "dot" : ""}
-              >
+              <span key={index} className={item === "✦" ? "dot" : ""}>
                 {item}
               </span>
             ))}
@@ -81,6 +69,7 @@ function App() {
         </div>
 
         <Collections />
+
         <Products
           favorites={favorites}
           setFavorites={setFavorites}
@@ -90,13 +79,13 @@ function App() {
           setShowWishlist={handleCloseWishlist}
           showCart={showCart}
           setShowCart={handleCloseCart}
+          searchQuery={searchQuery}
         />
+
         <About />
       </main>
     </div>
   );
 }
-
-
 
 export default App;
