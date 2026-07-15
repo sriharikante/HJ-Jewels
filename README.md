@@ -38,9 +38,6 @@ A modern luxury jewellery e-commerce website built with **React** that delivers 
 - GitHub
 - Vite
 
-### Deployment
-- Vercel
-
 ---
 
 ## 📁 Project Structure
