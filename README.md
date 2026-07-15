@@ -1,16 +1,119 @@
-# React + Vite
+# 💎 HJ Jewels
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern luxury jewellery e-commerce website built with **React** that delivers a premium shopping experience through an elegant UI, responsive design, and intuitive navigation.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Website:** 
 
-## React Compiler
+## 📂 Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**GitHub:** https://github.com/sriharikante/HJ-Jewels
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- Responsive design for all devices
+- Elegant luxury-inspired UI
+- Product collections and categories
+- Product detail pages
+- About and Contact sections
+- Smooth navigation
+- Reusable React components
+- Clean and maintainable code
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+### Tools
+- Git
+- GitHub
+- Vite
+
+### Deployment
+- Vercel
+
+---
+
+## 📁 Project Structure
+
+```text
+HJ-Jewels/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/sriharikante/HJ-Jewels.git
+```
+
+Navigate to the project
+
+```bash
+cd HJ-Jewels
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 🔮 Future Enhancements
+
+- User Authentication
+- Wishlist
+- Shopping Cart
+- Payment Gateway Integration
+- Order Tracking
+- Product Reviews
+- Admin Dashboard
+
+---
+
+## 👨‍💻 Author
+
+**Srihari Kante**
+
+GitHub: https://github.com/sriharikante
+
+LinkedIn: https://www.linkedin.com/in/your-linkedin/
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
