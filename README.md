@@ -109,7 +109,7 @@ npm run build
 
 GitHub: https://github.com/sriharikante
 
-LinkedIn: https://www.linkedin.com/in/your-linkedin/
+LinkedIn: https://www.linkedin.com/in/sriharikante/
 
 ---
 
