@@ -4,7 +4,7 @@ A modern luxury jewellery e-commerce website built with **React** that delivers 
 
 ## 🌐 Live Demo
 
-**Website:** 
+**Website:** https://sriharikante.github.io/HJ-Jewels/
 
 ## 📂 Repository
 
